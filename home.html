@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="saludo">
+        <h2>¡Hola! </h2>
+        <p id="nombre"></p>
+    </div>
+   <div class="saldo"> 
+    <p class="textoPregunta">Tu saldo actual es:</p>
+    <p id="saldo"></p>
+   </div>
+   <p class="textoPregunta">¿Que operación quieres realizar?</p>
+   <div class="menu">
+    <a href="./ingresarMonto.html">Ingresar monto</a>
+    <a href="./retirar.html">Retirar monto</a>
+    </div>
+     <button id="logoutButton">Cerrar sesión</button>
+    
+    <script src="./controllers/home.js"></script>
+</body>
+</html>
